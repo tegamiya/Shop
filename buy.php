@@ -24,8 +24,8 @@
           . "単価: {$row['price']} 円\n"
           . "数量: 1\n\n";
       }
-      $from = "250000000000000.xyz@gmail.com";
-      $to = "250000000000000.xyz@gmail.com";
+      $from = "自分のメールアドレス";
+      $to = "自分のメールアドレス";
       mb_send_mail($to, "購入メール", $body, "From: $from");
       $_SESSION['cart'] = null;
       require 't_buy_complete.php';
