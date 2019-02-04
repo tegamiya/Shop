@@ -1,0 +1,8 @@
+DB中身変えたとき
+
+t_index.php
+t_cart.php
+index.php
+cart.php
+
+変更の必要あり

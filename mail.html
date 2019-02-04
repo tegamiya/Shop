@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>お問い合わせ内容</title>
+<link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <div class="tb-cell mail-form">
+        <form id="form" action="mail.php" method="post">
+            <div class="row">
+            <div class="cell">
+            <label>name</label>
+        <!--cell--></div>
+            <div class="cell">
+            <input type="text" name="name" required>
+        <!--cell--></div>
+        <!--row--></div>
+            <div class="row">
+            <div class="cell">
+            <label>email</label>
+        <!--cell--></div>
+            <div class="cell">
+            <input type="email" name="email" required>
+        <!--cell--></div>
+        <!--row--></div>
+            <div class="row">
+            <div class="cell">
+            <label>comment</label>
+        <!--cell--></div>
+            <div class="cell">
+            <textarea name="comment" required></textarea>
+        <!--cell--></div>
+        <!--row--></div>
+            <div class="row">
+            <div class="cell">
+            &nbsp;
+        <!--cell--></div>
+            <div class="cell">
+            <button type="submit" id="sbtn" name="action" value="post">入力内容を確認</button>
+            <button type="reset" id="rbtn">リセット</button>
+        <!--cell--></div>
+        <!--row--></div>
+        </form>
+        <!--tb-cell-->
+    </div>
+
+</body>
+</html>

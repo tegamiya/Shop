@@ -1,0 +1,207 @@
+body {
+  background-color:rgb(245, 241, 241);
+  font-size: 14px;
+  color: #555;
+  padding:0; /*　追加*/
+  margin:0; /*　追加*/
+  height: 100%;
+}
+
+a:link, a:visited {color: #844;}
+a:hover {color: #faa;}
+p,form {
+  margin: 0;
+  padding: 4px 0;
+}
+
+#header{
+  background-color:#afc6e2;
+  margin-top: -30px;
+  height: 65px;
+}
+
+/* #kei{
+  margin-top: -10px;
+  margin-right: 20%;
+  float: right;
+  font-size: 20px;
+  color: #FFF;
+} */
+
+
+
+
+#footer{
+  position: fixed;
+  width:100%;
+  bottom: 0;
+  background-color:#afc6e2;
+  height: 60px;
+  text-align: center;
+  color: #fff;
+}
+h1 {
+  margin: -10px 0;
+  padding: 0;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+}
+
+h4{
+  font-size: 16px;
+  color: #fff;
+}
+
+a:visited{color:#fff;}
+
+
+table {
+  width: 40%;
+  margin: 15px auto;
+  padding: 0;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+#tyousei2{
+  width: 10%;
+}
+
+#tyousei3{
+  width: 14%;
+}
+
+th {
+  text-align: left;
+}
+th, td {
+  margin: 0;
+  padding: 6px 16px;
+  border-bottom: 12px solid rgb(245, 241, 241);
+}
+.book {
+  font-weight: bold;
+}
+.base {
+  width: 39%;
+  margin: 15px auto;
+  padding: 10px;
+  background-color: #719ed6;
+}
+.error {
+  font-weight: bold;
+  color: #c44;
+}
+
+table.table_left{
+  float: left;
+  margin-left: 7%;
+}
+
+table.table_right{
+  float: right;
+  margin-right: 7%;
+}
+
+
+
+
+
+
+
+/* 　　　　お問い合わせ　　　　　*/
+.tb-cell {
+  display: table;
+  width: 300px;
+  margin: 20px auto 40px auto;
+  text-align: left;
+}
+.tb-cell .row {
+  display: table-row;
+}
+.tb-cell .row .cell {
+  display: table-cell;
+  border: 1px solid #ddd;
+  padding: 10px;
+  vertical-align: middle;
+  color: #fff;
+}
+.tb-cell .row .cell:nth-child(odd) {
+  width: 100px;
+}
+.tb-cell .row .cell:nth-child(even) {
+  width: 200px;
+}
+.mail-form .row .cell {
+  padding: 5px;
+}
+.mail-form .row .cell:nth-child(1) {
+  background: #9fb7d4;
+}
+.mail-form .row .cell:nth-child(2) {
+  background: #ccc;
+}
+input[type="text"],
+input[type="email"] {
+  height: 30px;
+  font-size: 16px;
+}
+textarea {
+  height: 100px;
+  font-size: 16px;
+}
+button {
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button[type="button"] {
+  margin-left: 10px;
+}
+button[type="button"],
+button[type="submit"] {
+  background: #afc6e2;
+}
+button[type="reset"] {
+  background: none;
+}
+button[type="button"]:hover,
+button[type="submit"]:hover {
+  background: #ddd;
+}
+button[type="reset"]:hover {
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+.tb-cell {
+  width: 800px;
+}
+.tb-cell .row {
+  display: table-row;
+}
+.tb-cell .row .cell {
+  display: table-cell;
+  border: 1px solid #ddd;
+  padding: 10px;
+  vertical-align: middle;
+  color: #fff;
+}
+.tb-cell .row .cell:nth-child(odd) {
+  width: 200px;
+}
+.tb-cell .row .cell:nth-child(even) {
+  width: 600px;
+}
+input[type="text"],
+input[type="email"] {
+  width: 300px;
+}
+textarea {
+  width: 580px;
+}
+
+}
+/* *お問い合わせEnd* */
